@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Images\favicon.jpeg" />
+    <link rel="stylesheet" href="stycle.CSS">
+</head>
+<body>
+    <div class="motherDivC">
+        <header class="mHeader">
+            <nav class="mNav">
+                <img src="Images\schoollogo.jpeg" alt="schoollogo" class="logo" >
+                <div class="mDiv">
+                    <span><a href="index.HTML">Home </a></span> |
+                    <span><a href="course.HTML">Course </a></span> |
+                    <span><a href="register.HTML">Register</a></span> |
+                    <span><a href="contact.HTML">Contact</a></span> 
+                </div>
+            </nav>
+        </header>
+
+        <section class="courseSectOne">
+            <h1>Select Courses</h1><br>
+            <p>NOTE: Click on the <b>'Selected Courses'</b> box to know if you have 'Selected Courses' already,
+            after clicking the <b>'CLICK TO SELECT COURSE'</b> button, after each page refresh.</p> <br>
+            <p>AND, incase of any selection mistake, click on a selected course to delete all courses, and start selection afresh</p>
+
+            <div class="courseSetDiv">
+                <div class="dropdown"> 
+                    <ul class="dropdownLi">
+                        <!-- get the courses from the school database -->
+                    </ul>
+                <button class="courseSectOneBt1">CLICK TO SELECT COURSES</button>
+                </div>
+            
+                <div class="dropdown dropdown2"> 
+                    <ul class="dropdownLi2">
+                        <!-- get the courses from the school database -->
+                    </ul>
+                <!-- List of selected courses will be rendered at the 'register page' from here -->
+                <button class="courseSectOneBt"><span><a href="register.HTML">CLICK TO REGISTER</a></span></button>
+                </div>
+            </div><br>
+            <P><b>FURTHER NOTE:</b> Confirm <b>'Selected Courses'</b> before proceeding!</P>
+        </section>
+
+        <footer class="foota">© 2023 Course Registration</footer>
+    </div>
+    
+</body>
+<script src="jquery/jquery.js" type="text/javascript"></script>
+<script src="script.JS" type="text/javascript"></script>
+</html>

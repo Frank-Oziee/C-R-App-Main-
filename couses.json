@@ -1,0 +1,43 @@
+[
+
+    {
+     "id": "igh",
+     "course": "GST 101 (General Studies)"
+ },
+ {
+     "id":"oyky",
+     "course":"GST 203 (Philosophy)"
+ },
+ {
+     "id":"iflh",
+     "course": "MTH 303 (Ordinary differencial Equation)"
+ },
+ {
+     "id":"oodh",
+     "course": "ENG 411 (Engineering Mechnisms)"
+ },
+ {
+     "id":"prjf",
+     "course": "MGT 202 (Management Science)"
+ },
+ {
+     "id": "reg",
+     "course": "MED 303 (Medical Science)"
+ },
+ {
+     "id": "_dgd",
+     "course": "LAW 303 (Principles of Law)"
+ },
+ {
+    "id": "iph",
+    "course": "GST 401 (General Studies 2)"
+},
+{
+    "id":"otky",
+    "course":"GSR 203 (Socials)"
+},
+{
+    "id":"ifuyh",
+    "course": "MTH 403 (Ordinary Mathematical Equation)"
+}
+ ]
